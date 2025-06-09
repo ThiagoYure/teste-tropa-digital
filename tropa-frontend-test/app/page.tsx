@@ -2,7 +2,6 @@
 import styled from 'styled-components';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const Container = styled(motion.div)`
@@ -299,7 +298,7 @@ export default function LoginPage() {
       setSuccess(true);
 
       setTimeout(() => {
-        setMessage('Você foi redirecionado!');
+        setMessage('Bem vindo!');
         router.push('/eventos');
       }, 1500);
     }, 1500);
