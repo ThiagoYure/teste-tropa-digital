@@ -7,6 +7,7 @@ import { PageTransitionLoader } from "@/components/PageTransitionLoader";
 
 const roboto = Roboto({
   variable: "--font-roboto",
+  subsets: ['latin']
 });
 
 export const metadata: Metadata = {
